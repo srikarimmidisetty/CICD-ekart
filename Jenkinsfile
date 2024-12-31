@@ -13,7 +13,7 @@ pipeline {
     stages {
         stage('Git checkout') {
             steps {
-                git 'https://github.com/gashok13193/CICD-ekart.git'
+                git 'https://github.com/srikarimmidisetty/CICD-ekart.git'
             }
         }
 
